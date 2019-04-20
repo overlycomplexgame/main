@@ -1,5 +1,5 @@
-window.onload = () => {
-let world = {
+function generatePlanet() {
+  let world = {
     size: Math.ceil(Math.random() * 5),
     numberOfTrees: null,
     animalLife: null,
@@ -84,8 +84,10 @@ let world = {
       world.grid[i].push(currentGridSquare);
     }
   }
+    
+  return world;
+}
 
-  console.log(world);
-
-document.getElementById("data").innerHTML = JSON.stringify(world);
+window.onload = () => {
+    document.getElementById("data").innerHTML = JSON.stringify(generatePlanet());
 };
