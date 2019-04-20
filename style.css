@@ -1,0 +1,27 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-size: 2.5em;
+  border-bottom: 1px solid white;
+}
+
+section {
+  text-align: center;
+}
+
+#start {
+  margin-top: 1em;
+  border: 1px solid white;
+  color: white;
+  font-size: 3em;
+  background-color: grey;
+}
