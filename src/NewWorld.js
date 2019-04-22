@@ -186,7 +186,7 @@ function generatePlanet() {
           currentGridSquare.soilFertility = 100;
       }
 
-      currentGridSquare.dangerFactor = Math.round(Math.random() * 5);
+      currentGridSquare.dangerFactor = Math.ceil(Math.random() * 5);
       //End <------------------->
 
       //Add the current grid square to the world map
