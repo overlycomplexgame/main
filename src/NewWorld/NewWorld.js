@@ -3,7 +3,7 @@ window.onload = () => {
     
     document.getElementById("loadData").addEventListener("submit", e => {
         e.preventDefault();
-        console.log("Still In Testing");
+        document.getElementById("data").innerHTML = document.getElementById("dataFile").value;
     }
                                                     
     document.getElementById("genUniverse").addEventListener("click", () => {
