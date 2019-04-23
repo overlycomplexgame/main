@@ -3,7 +3,9 @@ window.onload = () => {
     
     document.getElementById("loadData").addEventListener("submit", e => {
         e.preventDefault();
-        document.getElementById("data").innerHTML = document.getElementById("dataFile").value;
+        
+        planetData = document.getElementById("dataFile").value;
+        document.getElementById("data").innerHTML = planetData;
     }
                                                     
     document.getElementById("genUniverse").addEventListener("click", () => {
